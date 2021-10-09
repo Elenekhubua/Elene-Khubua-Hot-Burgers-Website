@@ -76,3 +76,63 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: royalblue; */
+}
+.section1-div1{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:70px;
+}
+.section1-heading{
+    font-size: 30px;
+    color: #A80E0E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section1-text{
+    font-size: 17px;
+    color:#382E36;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:20px;
+}
+.section1-div2{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+.section1-smalldiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1-h5{
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top:20px;
+}
+.burger {
+     width: 90px;
+}
+.pizza{
+    width: 100px;
+}
+.fries{
+    width: 90px;
+}
+.cake{
+    width: 60px;
+}
+.sandwich{
+    width: 100px;
+}
