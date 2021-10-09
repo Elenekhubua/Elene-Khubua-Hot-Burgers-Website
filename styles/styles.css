@@ -136,3 +136,41 @@
 .sandwich{
     width: 100px;
 }
+.section2{
+    background-color: #FFAA00;
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2-background{
+    background-image: url(../images/section2-brush.svg);
+    width:70%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.section2-h2{
+    position: absolute;
+    top: 100px;
+    left:50;
+    font-size:30px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.section2-p{
+    position: absolute;
+    top: 150px;
+    left:50;
+    font-size:15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.man{
+    width:400px;
+}
