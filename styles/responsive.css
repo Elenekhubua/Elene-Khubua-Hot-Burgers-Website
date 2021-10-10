@@ -57,6 +57,18 @@
     .section-text{
         text-align: center;
     }
+    .section2-div{
+        height: auto;
+    }
+    .section2-h2{
+        font-size: 30px;
+    }
+    .section2-p{
+        font-size: 20px;
+    }
+    .man{
+        width:300px;
+    }
 }
 @media (max-width:480px){
     .header-logo{
@@ -90,5 +102,7 @@
         width: 48%;
         margin-bottom: 15px;
     }
-
+    .section2{
+        flex-direction: column;
+    }
 }
