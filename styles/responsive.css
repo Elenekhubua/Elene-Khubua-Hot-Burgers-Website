@@ -23,6 +23,9 @@
     .container{
         justify-content: space-around;
     }
+    .section4-background{
+        height: 400px;
+    }
 }
 @media (max-width:768px) {
     .header-back{
@@ -72,6 +75,20 @@
     .man{
         width:300px;
     }
+    .section4-background{
+        height: 350px;
+    }
+    .section4-div{
+        top:50;
+        left:50;
+        width: 150px;
+    }
+    .section4-h3{
+        font-size: 22px;
+    }
+    .date-div{
+        width: 30px;
+    }
 }
 @media (max-width:480px){
     .header-logo{
@@ -107,5 +124,19 @@
     }
     .section2{
         flex-direction: column;
+    }
+    .section4-background{
+        height: 250px;
+    }
+    .section4-div{
+        top:25;
+        left:25;
+    }
+    .date-div{
+        width: 25px;
+        height: 25px;
+    }
+    .date-h6{
+        font-size: 15px;
     }
 }
