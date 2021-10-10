@@ -473,7 +473,7 @@
 }
 
 .contact-li{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -522,25 +522,36 @@
     margin-top:20px;
 }
 .form-label{
-    color: #000;
+    color: #FFAA00;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 .form-input{
     width: 450px;
     height: 30px;
+    border: none;
+    border-bottom:1px solid grey;
+}
+.form-input:focus{
+    outline: none;
+}
+.form-input::placeholder{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: grey;
 }
 .button{
     width: 450px;
     height: 50px;
     background-color:#FFAA00;
     font-size: 20px;
-    color:#000000;
+    color:#A80E0E;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     margin-top: 30px;
+    border:none;
 }
 
 .map{
