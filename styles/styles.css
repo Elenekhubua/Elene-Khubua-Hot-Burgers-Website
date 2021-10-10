@@ -7,12 +7,6 @@
     background-position: center;
     position: relative;
 }
-.header-brush{
-    width: 100%;
-    position: absolute;
-    bottom:0;
-    left: 0;
-}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -45,9 +39,12 @@
 .header-div{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
     margin-left: 30px;
+    /* background-color: thistle; */
 }
 .header-h2{
     font-size: 60px;
@@ -84,7 +81,8 @@
     align-items: center;
 }
 .section-div{
-    width: 600px;
+    max-width: 600px;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,21 +97,25 @@
 }
 .section-text{
     font-size: 17px;
+    width: 100%;
     color:#382E36;
     font-family: 'Montserrat', sans-serif;
     margin-top:20px;
 }
 .section1-div2{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top:70px;
     margin-bottom: 70px;
 }
 .section1-smalldiv{
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .section1-h5{
     font-size: 15px;
@@ -123,7 +125,7 @@
     margin-top:20px;
 }
 .burger {
-     width: 90px;
+    width: 90px;
 }
 .pizza{
     width: 100px;
