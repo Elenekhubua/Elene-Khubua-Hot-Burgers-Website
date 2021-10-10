@@ -20,6 +20,9 @@
     .section1-div2{
         width: 97%;
     }
+    .container{
+        justify-content: space-around;
+    }
 }
 @media (max-width:768px) {
     .header-back{
