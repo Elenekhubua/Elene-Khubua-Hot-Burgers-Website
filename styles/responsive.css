@@ -89,6 +89,12 @@
     .date-div{
         width: 30px;
     }
+    .section5-div{
+        flex-direction: column;
+    }
+    .section5-image{
+        margin-bottom: 20px;
+    }
 }
 @media (max-width:480px){
     .header-logo{
