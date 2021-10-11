@@ -113,6 +113,18 @@
     .form-heading{
         margin-top: 30px;
     }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-div{
+        width: 48%;
+    }
+    .footer-div:nth-child(3){
+        margin-top: 30px;
+    }
+    .footer-div-2{
+        width: 48%;
+    }
 }
 @media (max-width:480px){
     .header-logo{
@@ -177,5 +189,23 @@
     }
     .map{
         height: auto;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-div{
+        width: 70%;
+    }
+    .logo{
+        width: 170px;
+    }
+    .footer-div:nth-child(2){
+        margin-top: 30px;
+    }
+    .footer-div-2{
+        width: 70%;
+        margin-top: 30px;
     }
 }
