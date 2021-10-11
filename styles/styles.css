@@ -385,7 +385,8 @@
     align-items: center;
 }
 .section6-container{
-    width: 1000px;
+    max-width: 1000px;
+    width: 97%;
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
