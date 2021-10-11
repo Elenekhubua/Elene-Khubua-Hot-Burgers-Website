@@ -37,6 +37,9 @@
     font-family: var(--font-1);
     font-weight: bold;
 }
+.header-nav-a:hover{
+    color: var(--color-3);
+}
 .div-burgerbar{
     color: var(--color-1);
     font-size: 30px;
@@ -72,10 +75,13 @@
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.header-small-div:hover{
+    background-color:var(--color-1)
 }
 .small-div-a{
     font-size: 20px;
@@ -134,7 +140,7 @@
     margin-top:20px;
 }
 .burger {
-    width: 90px;
+    width: 80px;
 }
 .pizza{
     width: 100px;
@@ -275,6 +281,9 @@
     align-items: center;
     margin-top:50px;
     margin-bottom: 50px;
+}
+.red-div:hover{
+    background-color: var(--color-2);
 }
 .red-div-a{
     font-size:12px;
