@@ -48,7 +48,6 @@
     .header-ul{
         flex-direction: column;
         align-items: flex-end;
-       /* background-color: turquoise; */
        padding: 0;
     }
     .header-li{
@@ -57,9 +56,6 @@
     .div-burgerbar{
         display: block;
     }
-    /* .header-nav{
-        display: none;
-    } */
     .header-h2{
         font-size: 35px;
     }
