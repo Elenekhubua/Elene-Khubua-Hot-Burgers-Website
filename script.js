@@ -3,6 +3,3 @@ document.getElementById('send').addEventListener('click', function(){
 })
 
 
-document.getElementById('send2').addEventListener('click', function(){
-    alert('Your order is sent')
-})
