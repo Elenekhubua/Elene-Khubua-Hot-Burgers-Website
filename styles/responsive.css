@@ -103,6 +103,16 @@
     .section5-image{
         margin-bottom: 20px;
     }
+    .section7-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info{
+        margin-top: 20px;
+    }
+    .form-heading{
+        margin-top: 30px;
+    }
 }
 @media (max-width:480px){
     .header-logo{
@@ -155,5 +165,17 @@
     }
     .section6-wrapper{
         width: 80%;
+    }
+    .contact-info{
+       font-size:25px; 
+    }
+    .form-heading{
+        font-size: 25px;
+    }
+    .map-div{
+        height: auto;
+    }
+    .map{
+        height: auto;
     }
 }
