@@ -72,7 +72,8 @@
     margin-bottom: 50px;
 }
 .header-small-div{
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     height: 50px;
     border-radius: 50px;
     background-color: var(--color-2);
