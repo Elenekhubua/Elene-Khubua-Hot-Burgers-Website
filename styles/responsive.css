@@ -45,10 +45,16 @@
     .navigation{
         flex-direction: column;
     }
+    .header-nav{
+        display: none;
+    }
     .header-ul{
         flex-direction: column;
         align-items: flex-end;
        padding: 0;
+    }
+    .header-nav.active{
+        display: block;
     }
     .header-li{
         margin-bottom: 10px;
