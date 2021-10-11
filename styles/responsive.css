@@ -42,16 +42,24 @@
     .header-logo{
         width: 140px;
     }
-    /* .navigation{
+    .navigation{
         flex-direction: column;
-        background-color: thistle;
-    } */
+    }
+    .header-ul{
+        flex-direction: column;
+        align-items: flex-end;
+       /* background-color: turquoise; */
+       padding: 0;
+    }
+    .header-li{
+        margin-bottom: 10px;
+    }
     .div-burgerbar{
         display: block;
     }
-    .header-nav{
+    /* .header-nav{
         display: none;
-    }
+    } */
     .header-h2{
         font-size: 35px;
     }
@@ -63,7 +71,9 @@
     .header-div{
         max-width: 400px;
         width: 100%;
-        margin-top: 50px;
+        position: absolute;
+        left: 10px;
+        top:50px;
     }
     .header-small-div{
         width: 150px;
@@ -134,19 +144,25 @@
     .header-logo{
         width: 110px;
     }
+    .header-nav-a{
+        font-size: 17px;
+    }
     .header-div{
         max-width: 250px;
         width: 100%;
+        left: 0;
     }
     .header-h2{
         font-size: 27px;
     }
     .header-p{
         font-size: 13px;
+        width:150px;
     }
-    .header-small-div{
+    .header-button{
         width: 120px;
         height: 35px;
+        font-size: 15px;
     }
     .section-div{
         margin-top: 40px;
