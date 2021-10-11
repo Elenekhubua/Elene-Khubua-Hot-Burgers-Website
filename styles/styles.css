@@ -447,7 +447,7 @@
 }
 .left-box{
     max-width: 450px;
-    width: 100%;
+    width: 92%;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -491,7 +491,7 @@
 }
 .right-box{
     max-width: 450px;
-    width: 100%;
+    width: 92%;
     height: 350px;
     display: flex;
     flex-direction: column;
